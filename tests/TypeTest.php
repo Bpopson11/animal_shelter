@@ -105,7 +105,6 @@
 
             //Act
             $result = Type::getAll();
-            var_dump($result);
 
             //Assert
             $this->assertEquals([$test_Type, $test_Type2], $result);
